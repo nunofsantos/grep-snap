@@ -1,0 +1,16 @@
+name: grep
+version: "2.25"
+summary: GNU grep
+description: GNU grep searches the named input FILEs for lines containing a match to the given PATTERN.
+  If no files are specified, or if the file “-” is given, grep searches standard input.
+  By default, grep prints the matching lines.
+confinement: strict
+
+apps:
+  grep:
+    command: grep
+
+parts:
+  grep:
+    plugin: autotools
+    source: http://ftp.gnu.org/gnu/grep/grep-2.25.tar.xz
