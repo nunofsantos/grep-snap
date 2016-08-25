@@ -1,4 +1,4 @@
-name: grep
+name: grep-nsantos
 version: "2.25"
 summary: GNU grep
 description: GNU grep searches the named input FILEs for lines containing a match to the given PATTERN.
