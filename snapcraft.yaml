@@ -9,6 +9,7 @@ confinement: strict
 apps:
   grep:
     command: grep
+    plugs: [home]
 
 parts:
   grep:
